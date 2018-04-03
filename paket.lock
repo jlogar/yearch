@@ -1,0 +1,23 @@
+RESTRICTION: >= net461
+NUGET
+  remote: https://www.nuget.org/api/v2
+    ClosedXML (0.91)
+      DocumentFormat.OpenXml (>= 2.7.2)
+      ExcelNumberFormat (>= 1.0.3)
+      FastMember.Signed (>= 1.1)
+    DocumentFormat.OpenXml (2.8.1)
+      System.IO.Packaging (>= 4.4)
+    ExcelNumberFormat (1.0.3)
+    FastMember.Signed (1.3)
+    FSharp.Core (4.3.4)
+    FSharp.Data (2.4.5)
+    Microsoft.NETCore.Platforms (2.0.1)
+    NETStandard.Library (2.0.1)
+      Microsoft.NETCore.Platforms (>= 1.1)
+    System.IO.Packaging (4.4.1)
+      NETStandard.Library (>= 1.6.1)
+
+GROUP Build
+NUGET
+  remote: https://www.nuget.org/api/v2
+    FAKE (4.64.11)
