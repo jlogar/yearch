@@ -5,7 +5,7 @@ open System.Linq
 open ClosedXML.Excel
 
 [<Literal>]
-let InputSrc = __SOURCE_DIRECTORY__ + @"\..\..\invoice-sent_2017_on_2018-3-24.csv"
+let InputSrc = __SOURCE_DIRECTORY__ + @"\example.csv"
 
 type Csv = CsvProvider< InputSrc, ";",PreferOptionals=true>
 
